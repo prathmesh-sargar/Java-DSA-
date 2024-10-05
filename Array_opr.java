@@ -24,7 +24,7 @@ public class Array_opr {
         char opr = scan.next().charAt(0);
 
         ArraySum(arr1, arr2, NewMatrix, opr);
-
+        scan.close();
     }
 
     static void ArraySum(int[][] arr1, int[][] arr2, int[][] NewMatrix, char opr) {
@@ -59,6 +59,5 @@ public class Array_opr {
             }
             System.out.println();
         }
-    }
-
+    }   
 }
