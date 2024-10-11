@@ -1,8 +1,7 @@
 public class Print_Pattern {
 
     public static void main(String[] args) {
-
-        pattern6(6);
+        pattern4(4);
     }
 
     static void pattern1(int n) {
@@ -41,13 +40,10 @@ public class Print_Pattern {
     }
 
     static void pattern4(int n) {
-
         int maxval = n;
         n = 2 * n;
-        for (int i = 0; i <= n; i++) {
-
-            for (int j = 0; j <= n; j++) {
-
+        for (int i = 0; i <=n; i++) {
+            for (int j = 0; j <=n; j++) {
                 // this is important formula to understand it ..
                 int atEveryIndex = maxval - Math.min(Math.min(i, j), Math.min(n - i, n - j));
 
@@ -73,8 +69,8 @@ public class Print_Pattern {
         for (int i = 0; i < 2 * n; i++) {
 
             int totalcolInrow = i > n ? 2 * n - i : i;
-            
-            for (int sp = 0; sp < n-totalcolInrow ; sp++) {
+
+            for (int sp = 0; sp < n - totalcolInrow; sp++) {
                 System.out.print(" ");
             }
             for (int j = 0; j < totalcolInrow; j++) {
