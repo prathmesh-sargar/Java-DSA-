@@ -4,13 +4,19 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-
+        {
+            "type": "java",
+            "name": "FiboFromula",
+            "request": "launch",
+            "mainClass": "FiboFromula",
+            "projectName": "Java DSA_444313f8"
+        },
         {
             "name": "Java",
             "type": "java",
             "request": "launch",
             "stopOnEntry": true,
-           "jdkPath": "${env:JAVA_HOME}/bin",
+            "jdkPath": "${env:JAVA_HOME}/bin",
             "cwd": "${fileDirname}",
             "startupClass": "${fileBasenameNoExtension}",
             "classpath": [
