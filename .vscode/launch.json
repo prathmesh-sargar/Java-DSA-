@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Solve_Recursion",
+            "request": "launch",
+            "mainClass": "Solve_Recursion",
+            "projectName": "Java DSA_444313f8"
+        },
+        {
+            "type": "java",
             "name": "FiboFromula",
             "request": "launch",
             "mainClass": "FiboFromula",
