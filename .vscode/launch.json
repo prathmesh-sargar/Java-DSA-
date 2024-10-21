@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "QuickSort",
+            "request": "launch",
+            "mainClass": "QuickSort",
+            "projectName": "Java DSA_444313f8"
+        },
+        {
+            "type": "java",
+            "name": "MergeSort",
+            "request": "launch",
+            "mainClass": "MergeSort",
+            "projectName": "Java DSA_444313f8"
+        },
+        {
+            "type": "java",
             "name": "Solve_Recursion",
             "request": "launch",
             "mainClass": "Solve_Recursion",
